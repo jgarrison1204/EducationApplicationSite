@@ -1,0 +1,170 @@
+
+#advisement{
+	margin: 5%;
+	margin-bottom: 	0px;
+}
+
+#navbar-image .navbar-brand{
+	padding: 0px;
+}
+
+#image-transition{
+	background-color: lightgrey;
+	margin-top: 5%;
+}
+
+#application-steps{
+	display: flex;
+}
+
+#application-steps>article{
+	margin-right: calc((5% - 10px) / 3);
+}
+
+#application-steps>article:last-child{
+	margin-right: 0px;
+}
+
+#application-steps>article>div>a.btn-applications:hover{
+     background: lightgrey;
+}
+
+.page-header{
+	margin-top: 40px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #FFCE00;
+	float: right;
+}
+
+.chalk-board{
+	width: 100%;
+	max-height: 200px;
+	margin: 0 auto;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	background-color: grey;
+	border: 0px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFCE00;
+    padding: 0px;
+}
+
+.applicant-branching{
+	margin: 5% auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	background: #000
+}
+
+.panel-default>.panel-heading{
+    background-color: #FFCE00;
+}
+
+.panel-default{
+/* 	border-color: #FFCE00; */
+}
+
+.dd-advisement{
+	margin-top: 3%;
+}
+
+.applicant-type{
+	margin: 0 auto;
+}
+
+.circle {
+	margin: 0 auto;
+	margin-bottom: 20px;	
+	max-width: 150px;
+	max-height: 150px;
+	line-height: 150px;
+	border-radius: 50%;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	background: black
+}
+
+.postbac-application{
+	background: gray: 
+}
+
+.post-bac-instructions{
+	margin-top: 5%;
+}
+
+.branching{
+	margin: 0 auto;
+	width: 	200px;
+	height: 200px;
+}
+
+.undergrad-branching{
+	border-left: 3px dotted lightgrey;
+}
+
+.fuckingwork{
+	background: url("images/photo-hi-res-black-chalkboard-background.jpg") no-repeat;
+	min-height: 250px;
+	width: 100%;
+	height: 100%;
+}
+
+.image-transition{
+	min-height: 100px;
+	margin: 40px auto;
+}
+
+
+.btn-requirements{
+	margin-bottom: 40px;
+    background-color: #FFCE00                         ; 
+}
+
+.btn-applications{
+	background-color: #4a4f55;
+	color: white;
+}
+
+.step-text{
+	color: white;
+	vertical-align: middle;
+}
+
+.bold{
+	font-style: bold;
+}
+
+@media only screen and (max-width: 767px){
+	#application-steps{
+		display: block;
+		margin: auto;
+	}
+
+	#circles-row{
+		display: none;
+	}
+
+	.post-bac-branching{
+		padding-bottom: 25px;
+		border-bottom: 1px dotted lightgrey;
+	}
+
+	.undergrad-branching{
+		padding-top: 25px;
+		border: 0px;
+	}
+
+	.navbar-wrap{
+		padding-bottom: 2px;
+	}
+} 
