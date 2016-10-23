@@ -1,11 +1,14 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#navbar-list{
+	text-align: center;
+}
 
 #advisement{
 	margin: 5%;
 	margin-bottom: 	0px;
-}
-
-#navbar-image .navbar-brand{
-	padding: 0px;
 }
 
 #image-transition{
@@ -13,15 +16,15 @@
 	margin-top: 5%;
 }
 
-#application-steps{
+#application-steps, #admission-eligibilty-bucket{
 	display: flex;
 }
 
-#application-steps>article{
+#application-steps>article, #admission-eligibilty-bucket>article{
 	margin-right: calc((5% - 10px) / 3);
 }
 
-#application-steps>article:last-child{
+#application-steps>article:last-child, #admission-eligibilty-bucket>article:last-child{
 	margin-right: 0px;
 }
 
@@ -35,20 +38,22 @@
 
 .navbar-inverse .navbar-nav>li>a{
 	color: #FFCE00;
-	float: right;
-}
-
-.chalk-board{
 	width: 100%;
-	max-height: 200px;
-	margin: 0 auto;
 }
 
-.navbar{
+/*.chalk-board{
+	width: 100%;
+	height: 500px
+	border: 5px solid red;
+	background-image: url("images/ChalkBoard3.png");
+/*	margin: 0 auto;
+}*/
+
+/*.navbar{
 	margin-bottom: 0px;
-	background-color: grey;
+	background-color: black;
 	border: 0px;
-}
+}*/
 
 .navbar-inverse .navbar-brand {
     color: #FFCE00;
@@ -113,10 +118,10 @@
 }
 
 .fuckingwork{
-	background: url("images/photo-hi-res-black-chalkboard-background.jpg") no-repeat;
-	min-height: 250px;
 	width: 100%;
 	height: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 
 .image-transition{
@@ -124,9 +129,7 @@
 	margin: 40px auto;
 }
 
-
 .btn-requirements{
-	margin-bottom: 40px;
     background-color: #FFCE00                         ; 
 }
 
@@ -145,13 +148,20 @@
 }
 
 @media only screen and (max-width: 767px){
-	#application-steps{
+	#application-steps, #admission-eligibilty-bucket{
 		display: block;
 		margin: auto;
 	}
 
 	#circles-row{
 		display: none;
+	}
+
+	.navbar-inverse .navbar-nav>li>a{
+		color: #FFCE00;
+		width: 90%;
+		border: 1px solid white;
+		margin: 3px auto;
 	}
 
 	.post-bac-branching{
@@ -166,5 +176,5 @@
 
 	.navbar-wrap{
 		padding-bottom: 2px;
-	}
+	}	
 } 

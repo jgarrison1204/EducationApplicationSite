@@ -5,60 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<!-- Google Fonts -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Credential Admission Information</title>
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-static-top">
-
-	    <a id="navbar-image" class="navbar-brand" href="#"><img class="img-responsive" src="images/CharterCollegeofEducation.jpg" alt="CCOE Logo"></a>
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
         <div class="container">
-			<header class="row navbar-wrap">
-	        	<button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+	        <div class="navbar-header">
+	        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target = ".navbar-collapse">
 	        		<span class="icon-bar"></span>
 	        		<span class="icon-bar"></span>
 	        		<span class="icon-bar"></span>
 	        	</button>
-	        	<div class="collapse navbar-collapse navHeaderCollapse">
-	        		<ul class="nav navbar-nav navbar-right">
-	        			<li class="active item"><a href="#">Home</a></li>	
-	        			<li class="item"><a href="#">Post-Bac</a></li>	
-	        			<li class="item"><a href="#">Undergrad</a></li>	
-	        		</ul>
+		    	<a id="navbar-image" class="navbar-brand" href="#"><img class="img-responsive" src="images/CharterCollegeofEducation.jpg" alt="CCOE Logo"></a>
+		    </div>
+	        <div class="collapse navbar-collapse">
+				<ul id="navbar-list" class="nav navbar-nav navbar-right">
+		            <li class="active"><a href="#">Home</a></li>       
+		            <li><a href="#post-bac-instructions">Application: Post Baccalaureate</a></li>  
+		            <li><a href="#current-undergrad-instructions">Application: Current Undergraduates</a></li>       
+		            <li><a href="#admission-eligibilty-instructions">Admission and Eligibilty</a></li>
+		          </ul>
 	        	</div>
         	</header>
         </div>
     </nav>
-	<div class="container-fluid">
-		<header class="row">
-			<img class="img-responsive chalk-board" src="images/photo-hi-res-black-chalkboard-background.jpg" alt="chalkboard">
-		</header>	
-	</div>
-	<div class="container">
-		<section id="advisement">
-			<article class="panel panel-default">
-				<div class="panel-heading text-center"><h3>Advisement <small>We're here to help!</small></h3></div>
-				<div class="advisement-text panel-body">
-					Applying for a teaching credential can be a complicated process. We offer group advisement sessions for admissions, program requirements and career pathways. To view the upcoming dates, please click here Group Advisement Dates.
-					<div class="text-center dd-advisement">
-						<div class="dropdown btn-group">
-						  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Group Advisement
-						  <span class="caret"></span></button>
-						  <ul class="dropdown-menu">
-						    <li class="dropdown-item"><a href="#">HTML</a></li>
-						    <li class="dropdown-item"><a href="#">CSS</a></li>
-						    <li class="dropdown-item"><a href="#">JavaScript</a></li>
-						  </ul>
-						</div>
-					</div>
-				</div>
-			</article>
-		</section>		
-	</div>
+	<header class="container">
+		<div class="jumbotron">
+			<center><h1><b>Teaching Credential Application</b></h1>
+			<p>There are different applicantions and admissions steps for Post-Bac and Current Undergraduate Students</p></center>
+		</div>
+	</header>
 	<section id="applicant-type" class="container">
 		<header class="page-header">
 			<h3 class="text-center">
@@ -71,20 +52,149 @@
 				<h4 class="text-center"><span class="label label-default">Post Baccalaureate</span></h4></a>
 			</div>			
 			<div class="undergrad-branching col-xs-12 col-sm-6 text-center">	
-				<img src="images/undergrad.eps" alt="undergradute image" class="undergrad-image img-responsive branching">
+				<a href="#current-undergrad-instructions"><img src="images/undergrad.eps" alt="undergradute image" class="undergrad-image img-responsive branching"></a>
 				<h4 class="text-center"><span class="label label-default">Current Undergraduate</span></h4>
 			</div>
 	</section>
+	<div class="container">
+		<section id="advisement">
+			<article class="panel panel-default">
+				<div class="panel-heading text-center"><h3>Advisement <small>We're here to help!</small></h3></div>
+				<div class="advisement-text panel-body lead">
+					Applying for a teaching credential can be a complicated process. We offer group advisement sessions for admissions, program requirements and career pathways. To view the upcoming dates and to register, please click the Group Advisement Button below.
+					<div class="text-center dd-advisement">
+						<div class="dropdown btn-group">
+						  <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">Group Advisement
+						  <span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						  <li class="dropdown-header">Single/Multiple Subject</li>
+						    <li class="dropdown-item"><a href="#">Date Time </a></li>
+						    <li class="dropdown-item"><a href="#">Date Time </a></li>
+						    <li class="dropdown-item"><a href="#">Date Time </a></li>
+						    <li class="dropdown-header">Education Specialist (Special Education)</li>
+						    <li class="dropdown-item"><a href="https://calstatelacbe.hobsonsradius.com/ssc/eform/M0SB24zC67020x67125s.ssc">Friday, November 4 3-5pm</a></li>
+						    <li class="dropdown-item"><a href="https://calstatelacbe.hobsonsradius.com/ssc/eform/M0SB24zC67020x67125s.ssc">Friday, Decemeber 9 3-5pm</a></li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>		
+	</div>
 	<div id="image-transition" class="container-fluid">
 		<div class="text-center">
 			<img src="images/CalStateLALogo.png" alt="cal state la logo" class="image-transition img-responsive">		
 		</div>
 	</div>
+	<section id="admission-eligibilty-instructions" class="container">
+		<header class="page-header">	
+			<h3 class="text-center">Admission Requirements And Eligilbilty</h3>
+		</header>
+		<section id="admission-eligibilty-bucket" class="row">
+			<article class="col-sm-3 panel panel-default">
+				<h3 class="panel-heading text-center"><b>Certificate of Clearance:</b></h3>
+				<div class="text-center">
+					<button type="button" class="btn btn-default btn-requirements" data-toggle="modal" data-target="#certClearanceModal">Details:<br> Certificate of Clearance</button>
+				</div>
+					<p class="lead panel-body"> From the California Commission on Teacher Credentialing (CTC)</p>
+			</article>
+			<div class="modal fade" id="certClearanceModal" role="dialog">
+			    <div class="modal-dialog modal-lg">
+			      	<div class="modal-content">
+			        	<div class="modal-header">
+			          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+			          		<h4 class="modal-title">How to apply for your Certificate of Clearance</h4>
+			        	</div>
+			        	<div class="modal-body">
+			          		<ul>
+			          			<li>Print a copy of Livescan <a href="http://www.ctc.ca.gov/credentials/leaflets/41-LS.pdf">41-LS form</a></li>
+			          			<li>Submit the Livescan 41-LS form and processing fee to the Livescan operator when the prints are taken.</li>
+			          			<li>A list of locations that offer Livescan services are found <a href="http://caag.state.ca.us/fingerprints/publications/contact.html">here</a></li>
+			          			<li>After you complete the Livescan, log on to the CTC Online Direct Application <a href="http://www.ctc.ca.gov/credentials/online-services/pdf/web-app-tips.pdf">Site</a></li>
+			          		</ul>
+			          		<p>Your Certificate of Clearance will be verified by an admission coordinator on the CTC website.</p>
+			        	</div>
+			        	<div class="modal-footer">
+			         		 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        	</div>
+			      	</div>
+			    </div>
+			</div>
+			<article class="col-sm-3 panel panel-default">
+				<h3 class="panel-heading text-center"><b>GPA: Last 60/90 units </b></h3>
+				<div class="text-center">
+					<button type="button" class="btn btn-default btn-requirements" data-toggle="modal" data-target="#gpaModal">Click here if your GPA <br> might be below 2.75</button>
+				</div>
+				<p class="lead panel-body">A minimum <b>2.75 GPA</b> in the last 60 semester/90 quarter units is required for admission into the CCOE credential program. <span class="small"><em>Applicants must also meet all university Title V GPA requirements.</em></span></p>
+			</article>
+			<div class="modal fade" id="gpaModal" role="dialog">
+			    <div class="modal-dialog modal-lg">
+			      	<div class="modal-content">
+			        	<div class="modal-header">
+			          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+			          		<h4 class="modal-title">GPA Alternatives</h4>
+			        	</div>
+			        	<div class="modal-body">
+			          		<p>If you do not meet the 2.75 GPA requirement, but have earned a 2.5 GPA or better, you may submit a Special Action Petition for committee consideration. Proof of meeting the basic skills requirement is strongly recommended prior to completing a special action petition.</p>
+			        	</div>
+			        	<div class="modal-footer">
+			         		 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        	</div>
+			      	</div>
+			    </div>
+			</div>
+			<article class="col-sm-3 panel panel-default">
+				<h3 class="panel-heading text-center"><b>Basic Skills Requirement:</b></h3>
+				<div class="text-center">
+					<button type="button" class="btn btn-default btn-requirements" data-toggle="modal" data-target="#basicSkillsModal">Basic Skills Requirement <br> alternatives</button>
+				</div>
+				<p class="lead panel-body">At a minimum, attempt of all three sections of the CBEST</p>
+			</article>
+			<div class="modal fade" id="basicSkillsModal" role="dialog">
+			    <div class="modal-dialog modal-lg">
+			      	<div class="modal-content">
+			        	<div class="modal-header">
+			          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+			          		<h4 class="modal-title">Basic Skills Alternatives</h4>
+			        	</div>
+			        	<div class="modal-body">
+			          		<p>For admission with conditions, you must show proof of one of the following:
+							<ul class="basic-skill">
+								<li class="basic-skill-list-item">Attempt of all three sections of the CBEST</li>
+								<li class="basic-skill-list-item">Passing scores from the CSET: Writing Skills text plus ALL three subtests of the CSET Multiple Subjects</li>
+								<li class="basic-skill-list-item">Passing scores from the CSU Early assessment Program (EAP), English and Math, or CSU English Placement (EPT) and Entry Level mathematics (ELM) Test.</li>
+								<li class="basic-skill-list-item">Proof of passage of CTC-approved out-of-state basic skills exam.</li>
+							</ul>
+
+
+							Click <a href="http://www.ctcexams.nesinc.com/">here</a> for CTC exam information.<br><br>
+
+							Applicants must bring original test scores to the Office for Student Services, King Hall D2078 to receive credit for the basic skills requirement.<br><br>
+
+							Note: Successful completion of the Basic Skills Requirement is a requirement for progressing on to fieldwork and meeting the requirements for credential recommendation.</p>
+			        	</div>
+			        	<div class="modal-footer">
+			         		 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        	</div>
+			      	</div>
+			    </div>
+			</div>
+			<article class="col-sm-3 panel panel-default"><p class="lead">
+				<h3 class="panel-heading text-center"><b>Negative TB Test Result:</b></h3>
+			 	<p class="panel-body lead">Within one calendar year</p>
+			 </article>
+		</section>
+	</section>
+		<div id="image-transition" class="container-fluid">
+			<div class="text-center">
+				<img src="images/CalStateLALogo.png" alt="cal state la logo" class="image-transition img-responsive">		
+			</div>
+		</div>
 	<section id="post-bac-instructions" class="container">
 		<header class="page-header">
-		<div class="text-center">	
-			<img src="images/postbac.jpg" alt="post-bac image" class="post-bac-image img-responsive branching">
-		</div>	
+			<div class="text-center">	
+				<img src="images/postbac.jpg" alt="post-bac image" class="post-bac-image img-responsive branching">
+			</div>	
 			<h3 class="text-center">Post-Bac Application Steps: <span class="small"><b>You Have To Complete 2 Applications </b></span></h3>
 		</header>
 		<header id="circles-row" class="row text-center">
@@ -115,7 +225,7 @@
 			<article class="step col-sm-4 panel panel-default">
 				<h3 class="panel-heading text-center"><b>Complete your Credential Application</b></h3>
 				<div class="text-center">
-					<a href="http://www.csumentor.edu/admissionapp/grad_apply.asp" class="btn btn-lg btn-applications button" role="button" aria-pressed="true">Click Here To Apply <br> To Credential Application</button></a>
+					<a href="https://calstatelacbe.hobsonsradius.com/ssc/aform/B0S872A70S3Ex6700qCN.ssc" target="new_window" class="btn btn-lg btn-applications button" role="button" aria-pressed="true">Click Here To Apply <br> To Our Credential Program</button></a>
 				</div>
 				<p class="lead panel-body">Complete all required sections of your credential program application including:
     				<ul class="text-left lead">
@@ -127,6 +237,9 @@
 			</article>
 			<article class="step col-sm-4 panel panel-default">
 				<h3 class="panel-heading text-center"><b>Mail Official Transcripts to Cal State LA</b></h3>
+				<div class="text-center">
+					<a href="http://www.calstatela.edu/admissions/submitting-transcriptstest-scores-admissions" target="new_window" class="btn btn-lg btn-applications button" role="button" aria-pressed="true">Submitting Transcripts <br> To Admissions</button></a>
+				</div>
 				<p class="lead panel-body">
 					    Please send official transcripts (Submitting Transcripts/Test Scores to Admissions) from all universities, except Cal State LA, you attended as an undergraduate or post-baccalaureate student. You must mail or deliver transcripts to:<br><br>
 
@@ -139,101 +252,45 @@
 				</p>
 			</article>
 		</section>
-		<article class="panel panel-default">
-			<div class="advisement-text panel-body">
-				<div class="row">
-					<div class="col-xs-12"><p class="lead"><b>Negative TB Test:</b> within one calendar year</p></div>
-					<div class="col-xs-12">
-						<p class="lead"> <a href=""></a><b>Certificate of Clearance</b> from the California Commission on Teacher Credentialing (CTC)</p>
-					</div>
-					<div class="col-xs-12 text-center">
-						<button type="button" class="btn btn-default btn-requirements" data-toggle="modal" data-target="#certClearanceModal">Details:<br> Certificate of Clearance</button>
-					</div>
-					<div class="modal fade" id="certClearanceModal" role="dialog">
-					    <div class="modal-dialog modal-lg">
-					      	<div class="modal-content">
-					        	<div class="modal-header">
-					          		<button type="button" class="close" data-dismiss="modal">&times;</button>
-					          		<h4 class="modal-title">How to apply for your Certificate of Clearance</h4>
-					        	</div>
-					        	<div class="modal-body">
-					          		<ul>
-					          			<li>Print a copy of Livescan <a href="http://www.ctc.ca.gov/credentials/leaflets/41-LS.pdf">41-LS form</a></li>
-					          			<li>Submit the Livescan 41-LS form and processing fee to the Livescan operator when the prints are taken.</li>
-					          			<li>A list of locations that offer Livescan services are found <a href="http://caag.state.ca.us/fingerprints/publications/contact.html">here</a></li>
-					          			<li>After you complete the Livescan, log on to the CTC Online Direct Application <a href="http://www.ctc.ca.gov/credentials/online-services/pdf/web-app-tips.pdf">Site</a></li>
-					          		</ul>
-					          		<p>Your Certificate of Clearance will be verified by an admission coordinator on the CTC website.</p>
-					        	</div>
-					        	<div class="modal-footer">
-					         		 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					        	</div>
-					      	</div>
-					    </div>
-					</div>
-					<div class="col-xs-12">
-						<p class="lead"> <b>GPA:</b> A minimum <b>2.75 GPA</b> in the last 60 semester/90 quarter units is required for admission into the CCOE credential program. <span class="small"><em>Applicants must also meet all university Title V GPA requirements.</em></span></p>
-					</div>
-					<div class="col-xs-12 text-center">
-						<button type="button" class="btn btn-default btn-requirements" data-toggle="modal" data-target="#gpaModal">Click here if your GPA <br> might be below 2.75</button>
-					</div>
-					<div class="modal fade" id="gpaModal" role="dialog">
-					    <div class="modal-dialog modal-lg">
-					      	<div class="modal-content">
-					        	<div class="modal-header">
-					          		<button type="button" class="close" data-dismiss="modal">&times;</button>
-					          		<h4 class="modal-title">GPA Alternatives</h4>
-					        	</div>
-					        	<div class="modal-body">
-					          		<p>If you do not meet the 2.75 GPA requirement, but have earned a 2.5 GPA or better, you may submit a Special Action Petition for committee consideration. Proof of meeting the basic skills requirement is strongly recommended prior to completing a special action petition.</p>
-					        	</div>
-					        	<div class="modal-footer">
-					         		 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					        	</div>
-					      	</div>
-					    </div>
-					</div>
-					<div class="col-xs-12">
-						<p class="lead"> <b>Basic Skills Requirement:</b> At a minimum, attempt of all three sections of the CBEST</p>
-					</div>
-					<div class="col-xs-12 text-center">
-						<button type="button" class="btn btn-default btn-requirements" data-toggle="modal" data-target="#basicSkillsModal">Basic Skills Requirement <br> alternatives</button>
-					</div>
-					<div class="modal fade" id="basicSkillsModal" role="dialog">
-					    <div class="modal-dialog modal-lg">
-					      	<div class="modal-content">
-					        	<div class="modal-header">
-					          		<button type="button" class="close" data-dismiss="modal">&times;</button>
-					          		<h4 class="modal-title">Basic Skills Alternatives</h4>
-					        	</div>
-					        	<div class="modal-body">
-					          		<p>For admission with conditions, you must show proof of one of the following:
-									<ul class="basic-skill">
-										<li class="basic-skill-list-item">Attempt of all three sections of the CBEST</li>
-										<li class="basic-skill-list-item">Passing scores from the CSET: Writing Skills text plus ALL three subtests of the CSET Multiple Subjects</li>
-										<li class="basic-skill-list-item">Passing scores from the CSU Early assessment Program (EAP), English and Math, or CSU English Placement (EPT) and Entry Level mathematics (ELM) Test.</li>
-										<li class="basic-skill-list-item">Proof of passage of CTC-approved out-of-state basic skills exam.</li>
-									</ul>
-
-
-									Click <a href="http://www.ctcexams.nesinc.com/">here</a> for CTC exam information.<br><br>
-
-									Applicants must bring original test scores to the Office for Student Services, King Hall D2078 to receive credit for the basic skills requirement.<br><br>
-
-									Note: Successful completion of the Basic Skills Requirement is a requirement for progressing on to fieldwork and meeting the requirements for credential recommendation.</p>
-					        	</div>
-					        	<div class="modal-footer">
-					         		 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					        	</div>
-					      	</div>
-					    </div>
-					</div>
+	</section>
+	<div id="image-transition" class="container-fluid">
+		<div class="text-center">
+			<img src="images/CalStateLALogo.png" alt="cal state la logo" class="image-transition img-responsive">		
+		</div>
+	</div>
+	<section id="current-undergrad-instructions" class="container">
+		<header class="page-header">
+			<div class="text-center">	
+				<img src="images/undergrad.eps" alt="post-bac image" class="post-bac-image img-responsive branching">
+			</div>	
+			<h3 class="text-center">Current Undergradute Application:</h3>
+		</header>
+		<section id="application-steps" class="row">
+			<article class="panel panel-default">
+				<h3 class="panel-heading text-center"><b>Complete your Credential Application</b></h3>
+				<div class="text-center">
+					<a href="https://calstatelacbe.hobsonsradius.com/ssc/aform/B0S872A70S3Ex6700qCN.ssc" target="new_window" class="btn btn-lg btn-applications button" role="button" aria-pressed="true">Click Here To Apply <br> To Our Credential Program</button></a>
 				</div>
+				<p class="lead panel-body">Complete all required sections of your credential program application including:
+    				<ul class="text-left lead">
+    					<li class="small">Philosophy of Education Statement</li>
+    					<li class="small">Two Letters of Recommendation</li>
+    				</ul></p>
+
+				<p class="lead panel-body">Applicants to our credential programs will find the tab labeled “Payment” in the credential program application to pay a $65 Admission and Credential Application Fee before submitting the application.</p>
+			</article>
 		</section>
+	</section>
 		<script>
 			$(document).ready(function(){
     			$('[data-toggle="popover"]').popover();
 			});
+			$(document).on('click','.navbar-collapse',function(e) {
+			    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) { $(this).collapse('hide');
+			    }
+			});
 		</script>
 	</body>
 </html
+
+
