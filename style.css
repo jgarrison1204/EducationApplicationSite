@@ -1,5 +1,10 @@
 body{
 	font-family: 'Open Sans', sans-serif;
+	padding-top: 70px;
+}
+
+.hash-margin{
+	padding-top: 20px;
 }
 
 #navbar-list{
