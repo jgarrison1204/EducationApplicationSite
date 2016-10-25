@@ -59,6 +59,10 @@ body{
 	color: #FFCE00;
 }
 
+.dropdown-header {
+	color: white;
+}
+
 .applicant-branching {
 	margin: 5% auto;
 	width: 200px;
@@ -142,6 +146,10 @@ body{
 	font-style: bold;
 }
 
+.btn-requirements {
+	white-space: pre-wrap;
+}
+
 @media only screen and (max-width: 767px){
 	#application-steps, #admission-eligibilty-bucket{
 		display: block;
@@ -182,3 +190,23 @@ body{
 		padding-bottom: 2px;
 	}	
 } 
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.panel-default>.panel-heading {
+    	background-color: #FFCE00;
+	    font-size: 16px;
+	}
+
+	.btn-requirements {
+		white-space: pre-wrap;
+	}
+
+	.btn-group-lg>.btn, .btn-lg {
+		white-space: pre-wrap;
+		min-height: 94px;
+	}
+
+	.lead {
+		font-size: 16px;
+	}
+}
