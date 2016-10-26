@@ -1,39 +1,39 @@
-body{
+body {
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 70px;
 }
 
-.hash-margin{
+.hash-margin {
 	padding-top: 20px;
 }
 
-#navbar-list{
+#navbar-list {
 	text-align: center;
 }
 
-#advisement{
+#advisement {
 	margin: 5%;
 	margin-bottom: 	0px;
 }
 
-#image-transition{
+#image-transition {
 	background-color: lightgrey;
 	margin-top: 5%;
 }
 
-#application-steps, #admission-eligibilty-bucket{
+#application-steps, #admission-eligibilty-bucket {
 	display: flex;
 }
 
-#application-steps>article, #admission-eligibilty-bucket>article{
+#application-steps>article, #admission-eligibilty-bucket>article {
 	margin-right: calc((5% - 10px) / 3);
 }
 
-#application-steps>article:last-child, #admission-eligibilty-bucket>article:last-child{
+#application-steps>article:last-child, #admission-eligibilty-bucket>article:last-child {
 	margin-right: 0px;
 }
 
-#application-steps>article>div>a.btn-applications:hover{
+#application-steps>article>div>a.btn-applications:hover {
      background: lightgrey;
 }
 
@@ -41,7 +41,7 @@ body{
 	margin-top: 40px;
 }
 
-.navbar-inverse .navbar-nav>li>a{
+.navbar-inverse .navbar-nav>li>a {
 	color: #FFCE00;
 	width: 100%;
 }
@@ -106,36 +106,48 @@ body{
 	margin-top: 5%;
 }
 
-.branching{
+.branching {
 	margin: 0 auto;
 	width: 	200px;
 	height: 200px;
 }
 
-.undergrad-branching{
+.undergrad-branching {
 	border-left: 3px dotted lightgrey;
 }
 
-.fuckingwork{
+.fuckingwork {
 	width: 100%;
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
 }
 
-.image-transition{
+.image-transition {
 	min-height: 100px;
 	margin: 40px auto;
 }
 
-.btn-requirements{
-    background-color: #FFCE00; 
-}
-
-.btn-applications{
+.btn {
 	background-color: #4a4f55;
 	color: white;
 }
+
+.btn:hoover {
+	background-color: lightgrey;
+}
+
+.btn-requirements {
+    background-color: #FFCE00; 
+	white-space: pre-wrap;
+}
+
+.btn-applications {
+	background-color: #4a4f55;
+	color: white;
+}
+
+
 
 .step-text{
 	color: white;
@@ -144,10 +156,6 @@ body{
 
 .bold{
 	font-style: bold;
-}
-
-.btn-requirements {
-	white-space: pre-wrap;
 }
 
 @media only screen and (max-width: 767px){
